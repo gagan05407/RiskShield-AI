@@ -1,0 +1,26 @@
+transaction_id,customer_id,timestamp,amount,payment_method,device_id,location,failed_attempts,account_age_days,previous_chargebacks,transaction_status,is_fraud
+TX80001,C8001,2026-06-03 01:10:00,49990.0,Netbanking,DEV_8899,Mumbai,3,2,1,historical,1
+TX80002,C8001,2026-06-03 01:10:45,49990.0,Netbanking,DEV_8899,Mumbai,2,2,1,historical,1
+TX80003,C8001,2026-06-03 01:11:30,49990.0,Netbanking,DEV_8899,Delhi,4,2,1,historical,1
+TX80004,C8002,2026-06-03 02:15:10,35000.0,Credit Card,DEV_8899,Bengaluru,2,5,2,historical,1
+TX80005,C8003,2026-06-03 02:18:22,28500.0,Credit Card,DEV_8899,Chennai,3,1,0,historical,1
+TX80006,C8004,2026-06-03 02:22:05,42000.0,Netbanking,DEV_8899,Hyderabad,1,12,3,historical,1
+TX80007,C8005,2026-06-03 02:27:40,19500.0,Debit Card,DEV_8899,Kolkata,2,4,1,historical,1
+TX80008,C8006,2026-06-03 04:05:00,125000.0,Netbanking,DEV_8008,Pune,0,1,0,historical,1
+TX80009,C8007,2026-06-03 05:40:12,18200.0,Credit Card,DEV_8009,Gurugram,4,15,4,historical,1
+TX80010,C8008,2026-06-03 07:15:30,14500.0,Credit Card,DEV_8010,Noida,1,45,0,historical,0
+TX80011,C8009,2026-06-03 08:30:10,16800.0,UPI,DEV_8011,Ahmedabad,1,30,0,historical,0
+TX80012,C8010,2026-06-03 09:45:00,11200.0,Debit Card,DEV_8012,Jaipur,1,60,1,historical,0
+TX80013,C8011,2026-06-03 10:20:44,22000.0,Netbanking,DEV_8013,Mumbai,0,90,0,historical,0
+TX80014,C8012,2026-06-03 11:10:00,650.0,UPI,DEV_8014,Delhi,0,450,0,historical,0
+TX80015,C8013,2026-06-03 12:05:15,1200.0,Debit Card,DEV_8015,Bengaluru,0,580,0,historical,0
+TX80016,C8014,2026-06-03 13:40:22,890.0,Wallet,DEV_8016,Hyderabad,0,320,0,historical,0
+TX80017,C8015,2026-06-03 14:15:30,3100.0,Credit Card,DEV_8017,Chennai,0,710,0,historical,0
+TX80018,C8016,2026-06-03 15:22:00,450.0,UPI,DEV_8018,Pune,0,240,0,historical,0
+TX80019,C8017,2026-06-03 16:05:40,38000.0,Credit Card,DEV_8019,Kolkata,2,8,2,historical,1
+TX80020,C8018,2026-06-03 17:30:15,15500.0,Netbanking,DEV_8020,Gurugram,1,55,0,historical,0
+TX80021,C8019,2026-06-03 18:12:00,720.0,UPI,DEV_8021,Noida,0,390,0,historical,0
+TX80022,C8020,2026-06-03 19:00:25,29000.0,UPI,DEV_8022,Ahmedabad,3,10,1,new,1
+TX80023,C8021,2026-06-03 19:45:10,1850.0,Debit Card,DEV_8023,Jaipur,0,510,0,new,0
+TX80024,C8022,2026-06-03 20:30:00,65000.0,Credit Card,DEV_8899,Mumbai,4,3,2,new,1
+TX80025,C8023,2026-06-03 21:15:30,1400.0,Wallet,DEV_8025,Delhi,0,290,0,new,0

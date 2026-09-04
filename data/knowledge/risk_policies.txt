@@ -1,0 +1,25 @@
+# Payment Risk Policies & Guidelines
+
+## 1. Risk Scoring & Decision Thresholds
+- Risk Score Range: 0 to 100
+- APPROVE (Score 0 - 30): Low risk transactions. Standard automated processing without manual intervention.
+- REVIEW (Score 31 - 70): Medium risk transactions. Flagged for human analyst inspection and secondary verification.
+- HOLD (Score 71 - 100): High risk transactions. Temporarily held to prevent potential fraudulent transfer while detailed investigation occurs.
+
+## 2. Velocity Risk Policy
+- High Velocity Alert: A customer attempting 3 or more transactions within 5 minutes is flagged as a high-velocity anomaly.
+- Hourly Threshold: More than 8 transactions within 1 hour indicates automated script behavior or carding activity.
+- Failed Attempt Spike: 3 or more consecutive failed payment attempts prior to a high-value transaction indicates potential credential stuffing or card testing.
+
+## 3. Behavioral & Amount Anomaly Policy
+- Amount Anomaly: A transaction amount greater than 3x the customer's historical average transaction amount triggers an amount deviation flag.
+- Extreme Amount Anomaly: A transaction amount exceeding 5x historical average or over ₹100,000 / $1,500 for a new account (<30 days old) triggers immediate review.
+
+## 4. Device & Location Anomaly Policy
+- New Device Flag: First-time usage of a unique device identifier for an existing account.
+- New Location Flag: Transaction initiated from a geographic location never previously recorded for the customer.
+- Impossible Travel / Geo-Distance: A transaction originating from a location far from the customer's recent location within an impossibly short timeframe.
+
+## 5. Chargeback History Policy
+- Previous Chargebacks: Any customer with 1 or more previous chargebacks carries elevated baseline risk (+20 score adjustment).
+- High Chargeback Risk: Customers with 2+ chargebacks require compulsory supervisor sign-off before releasing held transactions.

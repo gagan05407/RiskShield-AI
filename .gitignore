@@ -1,0 +1,23 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Application Database & ChromaDB
+riskshield.db
+.chromadb/
+
+# Trained Models
+models/model.pkl
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.log

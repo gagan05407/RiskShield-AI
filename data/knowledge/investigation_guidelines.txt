@@ -1,0 +1,25 @@
+# Fraud Investigation Standard Operating Procedures (SOP)
+
+## 1. Primary Investigation Workflow
+When evaluating a transaction flagged as REVIEW or HOLD:
+1. Verify Customer Identity & Account Age: Check if the account is new (<30 days) or established (>180 days). Established accounts with stable history have lower inherent risk.
+2. Inspect Device & IP History: Compare the device fingerprint and IP location against past successful transactions.
+3. Assess Transaction Velocity: Check if multiple small transactions were attempted prior to the current transaction (card testing pattern).
+4. Evaluate Amount Relative to Baseline: Calculate the deviation between the current transaction amount and historical mean transaction amount.
+5. Review Previous Chargeback & Dispute Records: Verify if the payment method or customer account has prior chargeback disputes logged.
+
+## 2. Decision Matrix & Recommendations
+- APPROVE Recommendation:
+  - Evidence shows minor deviation (e.g. slight amount increase) but device and location match customer profile.
+  - Customer responded positively to 2FA / OTP verification.
+- MANUAL REVIEW / REQUEST VERIFICATION:
+  - New device AND new location, but moderate transaction amount and no recent failed attempts.
+  - Contact customer via registered phone or email to confirm authorization.
+- HOLD / REJECT Recommendation:
+  - Multiple velocity violations (>=3 transactions in 5 min) + new device + 3+ failed attempts + amount >4x baseline.
+  - Previous confirmed chargebacks on record with matching device fingerprint.
+
+## 3. Evidence Grounding Rules for Analysts
+- Analysts and AI copilots must ground every recommendation strictly in verifiable telemetry data (logs, device IDs, transaction history).
+- Never presume fraudulent intent without supporting anomaly evidence (e.g., velocity spikes, device mismatch, location mismatch).
+- Always note potential false positives (e.g., legitimate user traveling or making a rare large purchase).

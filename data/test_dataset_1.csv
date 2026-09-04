@@ -1,0 +1,26 @@
+transaction_id,customer_id,timestamp,amount,payment_method,device_id,location,failed_attempts,account_age_days,previous_chargebacks,transaction_status,is_fraud
+TX70001,C7001,2026-06-01 08:30:15,450.0,UPI,DEV_7001,Mumbai,0,420,0,historical,0
+TX70002,C7002,2026-06-01 09:12:40,1250.5,Credit Card,DEV_7002,Delhi,0,650,0,historical,0
+TX70003,C7003,2026-06-01 10:05:12,890.0,Debit Card,DEV_7003,Bengaluru,0,310,0,historical,0
+TX70004,C7004,2026-06-01 11:22:05,2300.0,Netbanking,DEV_7004,Hyderabad,1,540,0,historical,0
+TX70005,C7005,2026-06-01 12:45:30,350.75,Wallet,DEV_7005,Pune,0,180,0,historical,0
+TX70006,C7001,2026-06-01 14:10:22,1200.0,UPI,DEV_7001,Mumbai,0,420,0,historical,0
+TX70007,C7006,2026-06-01 15:33:18,499.0,Debit Card,DEV_7006,Chennai,0,890,0,historical,0
+TX70008,C7007,2026-06-01 16:50:44,3200.0,Credit Card,DEV_7007,Kolkata,0,270,0,historical,0
+TX70009,C7008,2026-06-01 17:15:09,750.25,UPI,DEV_7008,Gurugram,0,360,0,historical,0
+TX70010,C7009,2026-06-01 18:40:55,1850.0,Netbanking,DEV_7009,Noida,0,720,0,historical,0
+TX70011,C7010,2026-06-01 19:25:30,620.0,Wallet,DEV_7010,Ahmedabad,0,490,0,historical,0
+TX70012,C7002,2026-06-01 20:10:14,2100.0,Credit Card,DEV_7002,Delhi,0,650,0,historical,0
+TX70013,C7011,2026-06-01 21:05:48,940.5,UPI,DEV_7011,Jaipur,0,150,0,historical,0
+TX70014,C7012,2026-06-01 22:30:00,1500.0,Debit Card,DEV_7012,Mumbai,0,580,0,historical,0
+TX70015,C7013,2026-06-02 08:15:20,310.0,UPI,DEV_7013,Bengaluru,0,390,0,historical,0
+TX70016,C7014,2026-06-02 09:40:11,4200.0,Credit Card,DEV_7014,Hyderabad,0,810,0,historical,0
+TX70017,C7015,2026-06-02 10:55:33,1150.0,Netbanking,DEV_7015,Pune,0,210,0,historical,0
+TX70018,C7003,2026-06-02 11:30:45,780.0,Debit Card,DEV_7003,Bengaluru,0,310,0,historical,0
+TX70019,C7016,2026-06-02 13:10:15,2450.0,Credit Card,DEV_7016,Chennai,0,460,0,historical,0
+TX70020,C7017,2026-06-02 14:25:50,550.0,UPI,DEV_7017,Kolkata,0,600,0,historical,0
+TX70021,C7018,2026-06-02 15:45:05,1990.0,Wallet,DEV_7018,Delhi,0,330,0,historical,0
+TX70022,C7019,2026-06-02 16:20:30,870.25,Debit Card,DEV_7019,Gurugram,1,280,0,historical,0
+TX70023,C7020,2026-06-02 17:05:12,3400.0,Netbanking,DEV_7020,Mumbai,0,750,0,historical,0
+TX70024,C7004,2026-06-02 17:50:40,1600.0,UPI,DEV_7004,Hyderabad,0,540,0,new,0
+TX70025,C7005,2026-06-02 18:30:00,920.0,Wallet,DEV_7005,Pune,0,180,0,new,0

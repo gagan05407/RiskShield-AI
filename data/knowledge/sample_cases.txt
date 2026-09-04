@@ -1,0 +1,16 @@
+# Historical Investigation Case Files (Synthetic Benchmarks)
+
+## Case CS-8821: Account Takeover via New Device
+- Background: Customer C104 (account age 450 days) initiated transaction TX8821 for ₹85,000 ($1,020).
+- Anomaly Signals: Customer average transaction was ₹2,500. Transaction initiated from new device DEV_9941 in London (customer home location: Mumbai). 4 failed attempts recorded in 3 minutes.
+- Investigation Outcome: Confirmed Account Takeover (ATO). Held transaction prevented loss of ₹85,000. Customer confirmed card details were compromised via phishing.
+
+## Case CS-4412: Legitimate Travel Spike (False Positive Avoided)
+- Background: Customer C112 (account age 600 days) purchased flight tickets worth ₹42,000 ($500) via TX4412.
+- Anomaly Signals: High amount deviation (3.5x baseline) and new location (Bengaluru instead of Delhi).
+- Investigation Outcome: Customer verified purchase via 2FA SMS challenge. Device ID DEV_1023 matched customer's known tablet. Status updated from REVIEW to APPROVE.
+
+## Case CS-9103: Automated Carding Attack
+- Background: Customer C125 experienced 12 rapid transactions of ₹50 ($0.60) within 4 minutes across 3 payment gateways.
+- Anomaly Signals: Extremely high 5-minute velocity, rapid micro-transactions, sequential card numbers.
+- Investigation Outcome: Fraud bot pattern identified. Gateways blocked IP subnet and held pending authorizations.
