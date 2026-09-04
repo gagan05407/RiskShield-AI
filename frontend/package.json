@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite --port 5173",
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/* || true"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
