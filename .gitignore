@@ -9,7 +9,9 @@ __pycache__/
 
 # Node Dependencies & Build Output
 node_modules/
+**/node_modules/
 dist/
+**/dist/
 
 # Application Database & ChromaDB
 riskshield.db
