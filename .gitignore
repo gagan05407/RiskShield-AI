@@ -2,12 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
-env/
-ENV/
-.env
-.env.*
+/venv/
+/env/
+/ENV/
+/.env
+/.env.*
 !.env.example
+
+# Node Dependencies & Build Output
+node_modules/
+dist/
 
 # Application Database & ChromaDB
 riskshield.db
